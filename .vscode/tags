@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+claims	../Day3/day3_2.py	/^  claims = [1 for x in range(len(inputs)+1)]$/;"	kind:variable	line:16
+claims	../Day3/day3_2.py	/^claims = []$/;"	kind:variable	line:12
+correct_couples	../Day2/day2_2.py	/^correct_couples =set(trim_different_char(i[0],i[1]) for i in couples)$/;"	kind:variable	line:11
+couples	../Day2/day2_2.py	/^couples = itertools.combinations(inputs,2)$/;"	kind:variable	line:10
+currentid	../Day4/day4_1.py	/^        currentid = int(i[1][0])$/;"	kind:variable	line:16
+currentmin	../Day4/day4_1.py	/^    currentmin = 0$/;"	kind:variable	line:21
+day1_1.py	../Day1/day1_1.py	1;"	kind:file	line:1
+day1_2.py	../Day1/day1_2.py	1;"	kind:file	line:1
+day2_1.py	../Day2/day2_1.py	1;"	kind:file	line:1
+day2_2.py	../Day2/day2_2.py	1;"	kind:file	line:1
+day3_1.py	../Day3/day3_1.py	1;"	kind:file	line:1
+day3_2.py	../Day3/day3_2.py	1;"	kind:file	line:1
+day4_1.py	../Day4/day4_1.py	1;"	kind:file	line:1
+evaluate	../Day3/day3_1.py	/^def evaluate(line):$/;"	kind:function	line:1
+fabric	../Day3/day3_1.py	/^fabric = [[0 for x in range(1000)] for y in range(1000)]$/;"	kind:variable	line:14
+fabric	../Day3/day3_2.py	/^fabric = [[[] for x in range(1000)] for y in range(1000)]$/;"	kind:variable	line:13
+found	../Day1/day1_2.py	/^found = set()$/;"	kind:variable	line:8
+inputs	../Day1/day1_1.py	/^    inputs = fp.readlines()$/;"	kind:variable	line:3
+inputs	../Day1/day1_1.py	/^inputs = []$/;"	kind:variable	line:1
+inputs	../Day1/day1_2.py	/^    inputs = fp.readlines()$/;"	kind:variable	line:5
+inputs	../Day1/day1_2.py	/^inputs = []$/;"	kind:variable	line:2
+inputs	../Day1/day1_2.py	/^inputs = list(map(lambda x: int(x.split('\\n')[0]), inputs))$/;"	kind:variable	line:6
+inputs	../Day2/day2_1.py	/^    inputs = fp.readlines()$/;"	kind:variable	line:5
+inputs	../Day2/day2_1.py	/^inputs = []$/;"	kind:variable	line:3
+inputs	../Day2/day2_1.py	/^inputs = list(map(lambda x:  collections.Counter(x),inputs))$/;"	kind:variable	line:6
+inputs	../Day2/day2_2.py	/^    inputs = fp.readlines()$/;"	kind:variable	line:8
+inputs	../Day2/day2_2.py	/^inputs = []$/;"	kind:variable	line:6
+inputs	../Day2/day2_2.py	/^inputs = [i.strip().split("\\n")[0] for i in inputs]$/;"	kind:variable	line:9
+inputs	../Day3/day3_1.py	/^  inputs = [line.replace(' ',"").strip().split("@")[1].strip().split(':') for line in fp]$/;"	kind:variable	line:16
+inputs	../Day3/day3_1.py	/^inputs=[]$/;"	kind:variable	line:13
+inputs	../Day3/day3_2.py	/^  inputs = [line.replace(' ',"").strip().split("@")[1].strip().split(':') for line in fp]$/;"	kind:variable	line:15
+inputs	../Day3/day3_2.py	/^inputs=[]$/;"	kind:variable	line:11
+inputs	../Day4/day4_1.py	/^    inputs = fp.readlines()$/;"	kind:variable	line:8
+inputs	../Day4/day4_1.py	/^inputs = []$/;"	kind:variable	line:6
+logs	../Day4/day4_1.py	/^logs = defaultdict(list)$/;"	kind:variable	line:13
+logstemp	../Day4/day4_1.py	/^logstemp = list(map(lambda x: [list(map(int,re.split('-|-| |:',x[0].replace('[','')))), list(map/;"	kind:variable	line:12
+num_of_three	../Day2/day2_1.py	/^num_of_three = sum(map(lambda x: 1 if any(c == 3 for c in x.values()) else 0,inputs))$/;"	kind:variable	line:8
+num_of_two	../Day2/day2_1.py	/^num_of_two = sum(map(lambda x: 1 if any(c == 2 for c in x.values()) else 0,inputs))$/;"	kind:variable	line:7
+overlaps	../Day3/day3_1.py	/^overlaps = 0 $/;"	kind:variable	line:12
+sums	../Day1/day1_2.py	/^sums = []$/;"	kind:variable	line:3
+sums	../Day1/day1_2.py	/^sums = itertools.accumulate(itertools.chain.from_iterable(itertools.repeat(inputs)))$/;"	kind:variable	line:7
+take	../Day3/day3_2.py	/^def take(claim, ids):$/;"	kind:function	line:2
+total	../Day1/day1_1.py	/^total = sum(map(lambda x: int(x.split('\\n')[0]), inputs))$/;"	kind:variable	line:4
+totalsleep	../Day4/day4_1.py	/^totalsleep = defaultdict(int)$/;"	kind:variable	line:19
+trim_different_char	../Day2/day2_2.py	/^def trim_different_char(string1, string2):$/;"	kind:function	line:2

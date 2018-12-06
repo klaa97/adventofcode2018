@@ -1,1 +1,3 @@
-aocfetch/*
+.config
+fetch.py
+.template
