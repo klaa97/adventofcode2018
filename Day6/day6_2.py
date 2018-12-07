@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from collections import defaultdict
 def get_closest(x,y):
     if sum([abs(point[0]-x)+abs(point[1]-y) for point in coordinates]) < 10000:
         return 1
     else:
         return 0    
 points = 0
-freq = defaultdict(int)
 with open('Day6/input', 'r') as fp:
     coordinates = fp.readlines()
 coordinates = [(int(s.split(',')[0]),int(s.split(',')[1])) for s in coordinates]

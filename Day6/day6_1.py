@@ -20,7 +20,6 @@ l_min= min(coordinates,key=lambda x: x[0])[0]
 l_max= max(coordinates,key=lambda x: x[0])[0]
 w_min= min(coordinates,key=lambda x: x[1])[1]
 w_max= max(coordinates,key=lambda x: x[1])[1]
-table = defaultdict(lambda: defaultdict(dict))
 for i in range(l_min,l_max+1):
     for j in range(w_min,w_max+1):
         get_closest(i,j)
