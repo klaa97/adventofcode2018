@@ -13,10 +13,7 @@ def check_if_final():
 with open("Day10/input") as fp:
     input = [list(map(int, re.findall('-?[0-9]+', line))) for line in fp]
 points = [[i[0], i[1]] for i in input]
-print(points)
 velocity = [[i[2], i[3]] for i in input]  
-print(velocity)
-processing = True
 i=0
 while True:
   min_y = min(points, key = lambda x: x[1])[1]
