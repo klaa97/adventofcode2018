@@ -14,24 +14,23 @@ def check_scores():
     return 1 
 with open('Day14/input', 'r') as fp:
     input = [int(x) for x in fp.read()[:-1]]
-input = [int(x) for x in input]
 scores = defaultdict(int)
 scores[0] = 3
 scores[1] = 7
 len_scores = 2
-elfs = [0,1]
+first_elf = 0
+second_elf = 1
 while True:
-    i = 0
-    list_sum = list(str(scores[elfs[0]]+scores[elfs[1]]))
+    list_sum = [int(d) for d in str(scores[first_elf]+scores[second_elf])]
     for i in list_sum:
-        scores[len_scores] = int(i)
+        scores[len_scores] = i
         len_scores = len_scores + 1
         if (len_scores >= len(input)):
             if (check_scores()):
                 print(len_scores-len(input))
                 raise Found
-    for counter, i in enumerate(elfs):
-        elfs[counter] = (elfs[counter] + 1 + scores[i])%len_scores
+    first_elf = (first_elf + 1 + scores[first_elf])%len_scores
+    second_elf = (second_elf + 1 + scores[second_elf])%len_scores
 
 
 

@@ -9,7 +9,7 @@ scores[1] = 7
 len_scores = 2
 elfs = [0,1]
 while len_scores < input+10:
-    list_sum = list(str(scores[elfs[0]]+scores[elfs[1]]))
+    list_sum = [int(d) for d in str(scores[elfs[0]]+scores[elfs[1]])]
     for i in list_sum:
         scores[len_scores] = int(i)
         len_scores = len_scores + 1
